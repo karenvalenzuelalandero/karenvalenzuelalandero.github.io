@@ -99,5 +99,5 @@ class About extends Me {
 }
 ```
 
-New Repository: https://github.com/karen-valenzuela-landero
+New Repository: https://github.com/karen-valenzuela-landero   <br>
 New GitHub Page: https://karen-valenzuela-landero.github.io/
