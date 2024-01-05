@@ -10,7 +10,7 @@ Portafolio Personal
  <br>
  <p>👩‍💻 Software Engineer </p>
  <p>🌟 QA Engineer since 2020</p>
- <p>✍🏼 Web Developer in progress...</p>
+ <p>✍🏼 FullStack Java Developer Jr </p>
 </div>
 
 ---
@@ -18,7 +18,22 @@ Portafolio Personal
   <h2>Experience</h2>
   <br>
 </div>
- 
+
+ ```php
+<?php
+namespace karenvalenzuela;
+class About extends Me {
+    public function getDevExperience(): array {
+        return [
+            WebDevelopment::class,
+            Code Review::class,
+            Unit Tests::class,
+            Scrum::class
+        ];
+    }
+}
+```
+
 ```php
 <?php
 namespace karenvalenzuela;
@@ -33,24 +48,6 @@ class About extends Me {
             Defect Report::class,
             Defect Tracking::class,
             Test Status Report::class,
-            Scrum::class
-        ];
-    }
-}
-```
-            
----
-<div align="center">
- <h2>Technical skills</h2>
- <br>
-</div>
- 
-```php
-<?php
-namespace karenvalenzuela;
-class About extends Me {
-    public function getQATechnicalSkills(): array {
-        return [            
             Smoke Tests::class,
             Exploratory Tests::class,
             Regression Tests::class,
@@ -60,6 +57,27 @@ class About extends Me {
 }
 ```
 
+---
+<div align="center">
+ <h2>Programming Languages </h2>
+ <br>
+</div>
+ 
+```php
+<?php
+namespace karenvalenzuela;
+class About extends Me {
+    public function getLanguages (): array {
+        return [            
+            HTML/CSS::class,
+            Javascript::class,
+            Java::class,
+            SQL::class
+        ];
+    }
+}
+```
+            
 ---
 <div align="center">
  <h2>Technologies </h2>
@@ -75,8 +93,11 @@ class About extends Me {
             Azure DevOps TestPlan::class,
             Test & Feedback plugin::class,
             Postman::class,
-            SQL::class
+            Figma::class
         ];
     }
 }
 ```
+
+New Repository: https://github.com/karen-valenzuela-landero
+New GitHub Page: https://karen-valenzuela-landero.github.io/
